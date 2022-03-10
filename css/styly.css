@@ -80,7 +80,7 @@ h3 {
 p, li {
   line-height: 1.5em;
   /* Horní a spodní okraj odstavců i odrážek budou odsazeny o hodnotu 1em */
-  padding: 1em 0px;
+  margin: 1em 0px;
 }
 
 p {
