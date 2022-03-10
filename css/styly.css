@@ -2,18 +2,28 @@
 body {
   /* Typ písma bude Arial nebo sans-serif */
   /* Barva pozadí bude světle šedá */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gainsboro;
 }
 
-/* Selektor pro oddíl označený ID obal */ {
+/* Selektor pro oddíl označený ID obal */
+#obal {
   /* Maximální šířka 960 px */
   /* Nastav okraje tak, aby byl blok obal na stránce vycentrován */
   /* Ohraničení - plná šedá čára o tloušťce 1 pixel  */
   /* Vnitřní odsazení - 20 pixelů */
   /* Bílá barva pozadí */
   /* Barva textu - tmavě šedý odstín, šestnáctkové hodnoty 3 */
+  max-width: 960px;
+  margin: auto;
+  border: 1px solid;
+  padding: 20px;
+  background-color: white;
+  color: #333;
 }
 
-/* Selektor pro značku nav */ {
+/* Selektor pro značku nav */ 
+nav {
   background-color: #222;
   margin: -20px;
   margin-bottom: 20px;
@@ -22,13 +32,16 @@ body {
   color: lightgray;
 }
 
-/* Pro všechny odkazy v bloku navigace */ {
+/* Pro všechny odkazy v bloku navigace */ 
+nav a {
   padding: 19px;
   /* Odkazy nebudou podtrženy */
+  text-decoration: none;
   color: lightgray;
 }
 
-/* Pro všechny odkazy v bloku navigace při přejetí kurzoru myši */ {
+/* Pro všechny odkazy v bloku navigace při přejetí kurzoru myši */ 
+nav a:hover {
   color: white;
   background-color: rgb(0,153,204);
 }
@@ -40,9 +53,15 @@ h1 {
   /* Barva nadpisu bude totožná s barvou zvýrazněného odkazu */
   /* Nadpis bude vypsán velkými písmeny */
   /* Výška řádku nadpisu bude 2em */
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  color: rgb(0,153,204);
+  text-transform: uppercase;
 }
 
-/* Platí pro nadpisy h2 i h3 */ {
+/* Platí pro nadpisy h2 i h3 */
+h2,h3 {
   font-weight: 200; 
   line-height: 2em;
 }
@@ -55,24 +74,33 @@ h2 {
 h3 { 
   font-size: 1.2em;
   /* Nadpisy budou podtrženy tenkou tečkovanou čarou, jejíž barva bude shodná s barvou písma */ 
+  border-bottom: 1px dotted;
 }
 
 p, li {
   line-height: 1.5em;
   /* Horní a spodní okraj odstavců i odrážek budou odsazeny o hodnotu 1em */
+  padding: 1em 0px;
 }
 
 p {
   /* Text odstavců bude zarovnán do bloku */
+  text-align: justify;
 }
 
 li {
   /* Nastavte styl odrážek tak, aby odpovídal předloze (čtvercová odrážka) */
+  list-style-type: square;
   list-style-position: outside;
   margin-left: 20px;
 }
 
 /* Nastavte pravidlo pro všechny tučně a modře zvýrazněné texty v odrážkách. */
+
+.blue-point {
+  color: rgb(0,153,204);
+  font-weight: bold;
+}
 
 /* Nastavte pravidlo pro všechny odstavce-poznámky: 
     * na levém okraji bude šedé ohraničení 10px silné
@@ -81,10 +109,18 @@ li {
     * písmo bude nakloněné (kurzíva)
 */
 
+.poznamka {
+  border-left: 10px solid grey;
+  padding-left: 50px;
+  font-size: 90%;
+  font-style: italic;
+}
+
 footer {
   color: gray;
   margin: 10px auto;
   /* Zápatí bude zarovnáno na střed */
+  text-align: center;
   font-size: 80%;
 }
 
