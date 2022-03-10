@@ -97,7 +97,7 @@ li {
 
 /* Nastavte pravidlo pro všechny tučně a modře zvýrazněné texty v odrážkách. */
 
-.blue-point {
+li>b {
   color: rgb(0,153,204);
   font-weight: bold;
 }
@@ -131,4 +131,16 @@ strong {
 
 /* Nastavte pravidla pro značky vložené do textu úvodního odstavce,
    aby konečný vzheld textu odpovídal předloze. */
-
+mark {
+  color: white;
+  background-color: rgb(102,153,0);
+}
+abbr {
+/*  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+*/
+text-decoration: none;
+border-bottom: 1.5px dashed red;
+}
