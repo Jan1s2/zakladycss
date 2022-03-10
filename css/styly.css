@@ -1,19 +1,19 @@
 /* CSS Document */
 body {
-  /* Typ písma bude Arial nebo sans-serif */
-  /* Barva pozadí bude svìtle šedá */
+  /* Typ pÃ­sma bude Arial nebo sans-serif */
+  /* Barva pozadÃ­ bude svÄ›tle Å¡edÃ¡ */
 }
 
-/* Selektor pro oddíl oznaèenı ID obal */ {
-  /* Maximální šíøka 960 px */
-  /* Nastav okraje tak, aby byl blok obal na stránce vycentrován */
-  /* Ohranièení - plná šedá èára o tloušce 1 pixel  */
-  /* Vnitøní odsazení - 20 pixelù */
-  /* Bílá barva pozadí */
-  /* Barva textu - tmavì šedı odstín, šestnáctkové hodnoty 3 */
+/* Selektor pro oddÃ­l oznaÄenÃ½ ID obal */ {
+  /* MaximÃ¡lnÃ­ Å¡Ã­Å™ka 960 px */
+  /* Nastav okraje tak, aby byl blok obal na strÃ¡nce vycentrovÃ¡n */
+  /* OhraniÄenÃ­ - plnÃ¡ Å¡edÃ¡ ÄÃ¡ra o tlouÅ¡Å¥ce 1 pixel  */
+  /* VnitÅ™nÃ­ odsazenÃ­ - 20 pixelÅ¯ */
+  /* BÃ­lÃ¡ barva pozadÃ­ */
+  /* Barva textu - tmavÄ› Å¡edÃ½ odstÃ­n, Å¡estnÃ¡ctkovÃ© hodnoty 3 */
 }
 
-/* Selektor pro znaèku nav */ {
+/* Selektor pro znaÄku nav */ {
   background-color: #222;
   margin: -20px;
   margin-bottom: 20px;
@@ -22,27 +22,27 @@ body {
   color: lightgray;
 }
 
-/* Pro všechny odkazy v bloku navigace */ {
+/* Pro vÅ¡echny odkazy v bloku navigace */ {
   padding: 19px;
-  /* Odkazy nebudou podtreny */
+  /* Odkazy nebudou podtrÅ¾eny */
   color: lightgray;
 }
 
-/* Pro všechny odkazy v bloku navigace pøi pøejetí kurzoru myši */ {
+/* Pro vÅ¡echny odkazy v bloku navigace pÅ™i pÅ™ejetÃ­ kurzoru myÅ¡i */ {
   color: white;
   background-color: rgb(0,153,204);
 }
 
 h1 {
-  /* Nadpis bude vycentrován */
-  /* Velikost nadpisu bude dvojnásobná vzhledem k základní velikosti písma */
-  /* Nadpis bude tuènı */
-  /* Barva nadpisu bude totoná s barvou zvıraznìného odkazu */
-  /* Nadpis bude vypsán velkımi písmeny */
-  /* Vıška øádku nadpisu bude 2em */
+  /* Nadpis bude vycentrovÃ¡n */
+  /* Velikost nadpisu bude dvojnÃ¡sobnÃ¡ vzhledem k zÃ¡kladnÃ­ velikosti pÃ­sma */
+  /* Nadpis bude tuÄnÃ½ */
+  /* Barva nadpisu bude totoÅ¾nÃ¡ s barvou zvÃ½raznÄ›nÃ©ho odkazu */
+  /* Nadpis bude vypsÃ¡n velkÃ½mi pÃ­smeny */
+  /* VÃ½Å¡ka Å™Ã¡dku nadpisu bude 2em */
 }
 
-/* Platí pro nadpisy h2 i h3 */ {
+/* PlatÃ­ pro nadpisy h2 i h3 */ {
   font-weight: 200; 
   line-height: 2em;
 }
@@ -54,37 +54,37 @@ h2 {
 
 h3 { 
   font-size: 1.2em;
-  /* Nadpisy budou podtreny tenkou teèkovanou èarou, její barva bude shodná s barvou písma */ 
+  /* Nadpisy budou podtrÅ¾eny tenkou teÄkovanou Äarou, jejÃ­Å¾ barva bude shodnÃ¡ s barvou pÃ­sma */ 
 }
 
 p, li {
   line-height: 1.5em;
-  /* Horní a spodní okraj odstavcù i odráek budou odsazeny o hodnotu 1em */
+  /* HornÃ­ a spodnÃ­ okraj odstavcÅ¯ i odrÃ¡Å¾ek budou odsazeny o hodnotu 1em */
 }
 
 p {
-  /* Text odstavcù bude zarovnán do bloku */
+  /* Text odstavcÅ¯ bude zarovnÃ¡n do bloku */
 }
 
 li {
-  /* Nastavte styl odráek tak, aby odpovídal pøedloze (ètvercová odráka) */
+  /* Nastavte styl odrÃ¡Å¾ek tak, aby odpovÃ­dal pÅ™edloze (ÄtvercovÃ¡ odrÃ¡Å¾ka) */
   list-style-position: outside;
   margin-left: 20px;
 }
 
-/* Nastavte pravidlo pro všechny tuènì a modøe zvıraznìné texty v odrákách. */
+/* Nastavte pravidlo pro vÅ¡echny tuÄnÄ› a modÅ™e zvÃ½raznÄ›nÃ© texty v odrÃ¡Å¾kÃ¡ch. */
 
-/* Nastavte pravidlo pro všechny odstavce-poznámky: 
-    * na levém okraji bude šedé ohranièení 10px silné
-    * text bude zleva odsazen o 50 pixelù
-    * pouitı font bude o 10% menší ne základní písmo
-    * písmo bude naklonìné (kurzíva)
+/* Nastavte pravidlo pro vÅ¡echny odstavce-poznÃ¡mky: 
+    * na levÃ©m okraji bude Å¡edÃ© ohraniÄenÃ­ 10px silnÃ©
+    * text bude zleva odsazen o 50 pixelÅ¯
+    * pouÅ¾itÃ½ font bude o 10% menÅ¡Ã­ neÅ¾ zÃ¡kladnÃ­ pÃ­smo
+    * pÃ­smo bude naklonÄ›nÃ© (kurzÃ­va)
 */
 
 footer {
   color: gray;
   margin: 10px auto;
-  /* Zápatí bude zarovnáno na støed */
+  /* ZÃ¡patÃ­ bude zarovnÃ¡no na stÅ™ed */
   font-size: 80%;
 }
 
@@ -93,6 +93,6 @@ strong {
 }
 
 
-/* Nastavte pravidla pro znaèky vloené do textu úvodního odstavce,
-   aby koneènı vzheld textu odpovídal pøedloze. */
+/* Nastavte pravidla pro znaÄky vloÅ¾enÃ© do textu ÃºvodnÃ­ho odstavce,
+   aby koneÄnÃ½ vzheld textu odpovÃ­dal pÅ™edloze. */
 
